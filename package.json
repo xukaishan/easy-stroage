@@ -1,9 +1,9 @@
 {
-  "name": "@kscommon/easy-api",
-  "version": "1.0.4",
+  "name": "@kscommon/easy-stroage",
+  "version": "1.0.2",
   "type": "module",
-  "main": "./dist/easy-api.umd.cjs",
-  "module": "./dist/easy-api.js",
+  "main": "./dist/easy-stroage.umd.cjs",
+  "module": "./dist/easy-stroage.js",
   "description": "Wrapper for Axios that allows to easily requests",
   "scripts": {
     "build": "vite build --config ./build/build.js"
@@ -13,8 +13,8 @@
   ],
   "exports": {
     ".": {
-      "import": "./dist/easy-api.js",
-      "require": "./dist/easy-api.umd.cjs"
+      "import": "./dist/easy-stroage.js",
+      "require": "./dist/easy-stroage.umd.cjs"
     }
   },
   "devDependencies": {
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xukaishan/easy-api.git"
+    "url": "git+https://github.com/xukaishan/easy-stroage.git"
   },
   "keywords": [
     "Axios",
@@ -33,9 +33,9 @@
   "author": "littlekai",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/xukaishan/easy-api/issues"
+    "url": "https://github.com/xukaishan/easy-stroage/issues"
   },
-  "homepage": "https://github.com/xukaishan/easy-api#readme",
+  "homepage": "https://github.com/xukaishan/easy-stroage#readme",
   "dependencies": {
     "@babel/core": "^7.18.10",
     "@babel/preset-env": "^7.18.10",

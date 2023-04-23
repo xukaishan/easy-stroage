@@ -9,19 +9,12 @@ export default defineConfig({
         lib: {
             entry: resolve(__dirname, '../packages/index.js'),
             formats: ['es', 'cjs', 'umd', 'iife'],
-            name: 'easyapi',
+            name: 'STROAGE',
         },
         terserOptions: {
 
         },
         rollupOptions: {
-            external: ['axios', 'qs'],
-            output: {
-                globals: {
-                    axios: 'axios',
-                    qs: 'Qs',
-                },
-            },
             plugins: [
                 babel({
                     exclude: '**/node_modules/**',
